@@ -1,0 +1,22 @@
+{
+    "name": "zhonghaibin/lyfzapi",
+    "type": "library",
+    "description": "lyfz Resource (Cloud) Storage SDK for PHP",
+    "keywords": ["lyfz", "storage", "sdk", "cloud"],
+    "homepage": "http://www.lyfz.net/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lyfz",
+            "email": "sdk@lyfz.net",
+            "homepage": "http://www.lyfz.net/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-4": {"LyfzApi\\": "src/LyfzApi"},
+        "files": ["src/LyfzApi/functions.php"]
+    }
+}
